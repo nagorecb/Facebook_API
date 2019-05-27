@@ -3,6 +3,8 @@ package COMUN;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
+import APIs.itfSistAutorizacionFacebook;
+
 public class clsMain
 {
 	

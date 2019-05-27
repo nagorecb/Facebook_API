@@ -4,6 +4,8 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 
+import APIs.itfSistAutorizacionFacebook;
+
 public class clsFacebook extends UnicastRemoteObject implements itfSistAutorizacionFacebook
 {
 	private static final long serialVersionUID = 1L;
