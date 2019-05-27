@@ -34,7 +34,7 @@ public class clsFacebook extends UnicastRemoteObject implements itfSistAutorizac
 		this.listaUsuarios = listaUsuarios;
 	}
 
-	public boolean ValidarUsuario (String email)
+	public boolean ValidarUsuario (String email)  throws RemoteException
 	{
 		for (clsUsuario usuario : listaUsuarios) 
 		{
